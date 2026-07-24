@@ -26,7 +26,7 @@ This command creates an active log file named `sys.log` and populates it with ba
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question4/Screenshots/Action%201.png?raw=true)
 
 </details>
 
@@ -61,7 +61,7 @@ This command executes the monitoring pipeline in the background using `tail -f -
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question4/Screenshots/Action%202.png?raw=true)
 
 </details>
 
@@ -96,7 +96,7 @@ This command inspects `error_report.log` to verify that the background monitorin
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question4/Screenshots/Action%203.png?raw=true)
 
 </details>
 
