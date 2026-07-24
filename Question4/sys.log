@@ -1,0 +1,6 @@
+[INFO] 2026-07-24 10:00:01 - System booted successfully
+[ERROR] 2026-07-24 10:00:05 - Database connection failed
+[INFO] 2026-07-24 10:01:00 - User login success
+[ERROR] 2026-07-24 10:01:05 - Disk quota exceeded
+[WARNING] 2026-07-24 10:01:10 - High memory usage
+[ERROR] 2026-07-24 10:01:15 - Service crashed
