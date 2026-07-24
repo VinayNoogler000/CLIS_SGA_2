@@ -28,7 +28,7 @@ This command creates the submissions directory and populates it with sample subm
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question1/Screenshots/Action%201.png?raw=true)
 
 </details>
 
@@ -66,7 +66,7 @@ This command uses `chmod +x` to grant execution permissions to the shell script 
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question1/Screenshots/Action%202.png?raw=true)
 
 </details>
 
@@ -113,7 +113,7 @@ This command runs the shell script which calculates MD5 hashes to identify `stud
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question1/Screenshots/Action%203.png?raw=true)
 
 </details>
 
@@ -153,7 +153,7 @@ This command lists the contents of the `./backup directory`. I verified that onl
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question1/Screenshots/Action%204.png?raw=true)
 
 </details>
 
@@ -197,7 +197,7 @@ This command displays the contents of `report.txt` and `error.log`. I verified t
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question1/Screenshots/Action%205.png?raw=true)
 
 </details>
 
