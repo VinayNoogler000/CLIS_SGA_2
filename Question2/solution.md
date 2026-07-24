@@ -4,7 +4,6 @@
 <summary>
 <h3 style="display: inline;">Action 1: Create the process monitor source file (process_monitor.c)</h3>
 </summary>
-
 <br>
 
 **Command:**
@@ -89,14 +88,11 @@ EOF
 ```text
 (Silent execution on success)
 ```
-
 <br>
 
 **Explanation:**  
 
 This command creates the C source file `process_monitor.c`. The program installs a `SIGCHLD` signal handler with `waitpid(-1, NULL, WNOHANG)` to reap finished children asynchronously and prevent zombies, creates worker children via `fork()`, and uses `kill()` to send `SIGTERM/SIGKILL` signals to terminate unresponsive processes.
-
-
 <br>
 
 **Screenshot:**  
@@ -112,7 +108,6 @@ This command creates the C source file `process_monitor.c`. The program installs
 <summary>
 <h3 style="display: inline;">Action 2: Compile the process monitor C program</h3>
 </summary>
-
 <br>
 
 **Command:**
@@ -127,13 +122,11 @@ gcc -Wall -o process_monitor process_monitor.c
 ```text
 (Silent execution on success)
 ```
-
 <br>
 
 **Explanation:**  
 
 This command compiles `process_monitor.c` using `gc`c` with the `-Wall` flag enabled to inspect for any compiler warnings. I observed that the program compiled cleanly without any errors or warnings, producing the executable binary `process_monitor`.
-
 <br>
 
 **Screenshot:**  
@@ -150,7 +143,6 @@ This command compiles `process_monitor.c` using `gc`c` with the `-Wall` flag ena
 <summary>
 <h3 style="display: inline;">Action 3: Execute the process monitor and observe process management</h3>
 </summary>
-
 <br>
 
 **Command:**
@@ -173,13 +165,11 @@ This command compiles `process_monitor.c` using `gc`c` with the `-Wall` flag ena
 [Parent] All child processes monitored and cleaned up. Exiting.
 ```
 (Note: Process IDs (PIDs) like 5432, 5433, and 5434 will vary dynamically on execution).
-
 <br>
 
 **Explanation:**  
 
 This command runs the compiled program. I observed the parent process spawn two children. Child 1 completed and was asynchronously reaped by the `SIGCHLD` handler (preventing a zombie state), while the parent successfully identified Child 2's unresponsive loop and terminated it via a `SIGTERM` signal.
-
 <br>
 
 **Screenshot:**  
@@ -196,7 +186,6 @@ This command runs the compiled program. I observed the parent process spawn two 
 <summary>
 <h3 style="display: inline;">Action 4: Verify zombie process prevention and process cleanup</h3>
 </summary>
-
 <br>
 
 **Command:**
@@ -210,13 +199,11 @@ ps aux | grep '[p]rocess_monitor'
 ```text
 (No output returned, confirming all parent and child processes terminated cleanly)
 ```
-
 <br>
 
 **Explanation:**  
 
 This command searches the system process table using `ps` and `grep` with single-quoted bracket notation `'[p]rocess_monitor'` to prevent shell filename globbing. The empty output confirms that neither zombie processes (`<defunct>`) nor orphaned child processes remain active on the system.
-
 <br>
 
 **Screenshot:**  

@@ -4,7 +4,6 @@
 <summary>
 <h3 style="display: inline;">Action 1: Setup directory structure and sample files</h3>
 </summary>
-
 <br>
 
 **Command:**
@@ -17,13 +16,11 @@ mkdir -p submissions && echo "Assignment 1 code" > submissions/student1.py && ec
 ```text
 (Silent execution on success)
 ```
-
 <br>
 
 **Explanation:**  
 
 This command creates the submissions directory and populates it with sample submission files. `student1.py` and `student2.py` share identical content to test duplicate detection, while `student3.py` contains unique code.
-
 <br>
 
 **Screenshot:**  
@@ -40,7 +37,6 @@ This command creates the submissions directory and populates it with sample subm
 <summary>
 <h3 style="display: inline;">Action 2: Make the submission processing script executable</h3>
 </summary>
-
 <br>
 
 **Command:**
@@ -55,13 +51,11 @@ chmod +x process_submissions.sh
 ```text
 (Silent execution on success)
 ```
-
 <br>
 
 **Explanation:**  
 
 This command uses `chmod +x` to grant execution permissions to the shell script `process_submissions.sh` I observed that the file mode updated successfully to allow execution.
-
 <br>
 
 **Screenshot:**  
@@ -78,7 +72,6 @@ This command uses `chmod +x` to grant execution permissions to the shell script 
 <summary>
 <h3 style="display: inline;">Action 3: Execute the submission processing script</h3>
 </summary>
-
 <br>
 
 **Command:**
@@ -102,13 +95,11 @@ Duplicate files found : 1
 Unique files backed up: 2
 ==========================================
 ```
-
 <br>
 
 **Explanation:**  
 
 This command runs the shell script which calculates MD5 hashes to identify `student2.py` as a duplicate of `student1.py`. It copies unique submissions to `./backup` and prints the final report.
-
 <br>
 
 **Screenshot:**  
@@ -125,7 +116,6 @@ This command runs the shell script which calculates MD5 hashes to identify `stud
 <summary>
 <h3 style="display: inline;">Action 4: Verify backed-up unique files</h3>
 </summary>
-
 <br>
 
 **Command:**
@@ -142,13 +132,11 @@ total 8
 -rw-r--r-- 1 user user 18 Jul 24 16:40 student1.py
 -rw-r--r-- 1 user user 21 Jul 24 16:40 student3.py
 ```
-
 <br>
 
 **Explanation:**  
 
 This command lists the contents of the `./backup directory`. I verified that only the unique files (`student1.py` and `student3.py`) were copied over while the duplicate was excluded.
-
 <br>
 
 **Screenshot:**  
@@ -165,7 +153,6 @@ This command lists the contents of the `./backup directory`. I verified that onl
 <summary>
 <h3 style="display: inline;">Action 5: Inspect generated report and error log files</h3>
 </summary>
-
 <br>
 
 **Command:**
@@ -186,13 +173,11 @@ Duplicate files found : 1
 Unique files backed up: 2
 ==========================================
 ```
-
 <br>
 
 **Explanation:** 
 
 This command displays the contents of `report.txt` and `error.log`. I verified that summary metrics were saved in `report.txt` and that `error.log` remained empty due to zero runtime errors.
-
 <br>
 
 **Screenshot:**  
