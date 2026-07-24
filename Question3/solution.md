@@ -108,7 +108,7 @@ This command creates the C source file `record_utility.c` using direct Linux sys
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question3/Screenshots/Action%201.png?raw=true)
 
 </details>
 
@@ -143,7 +143,7 @@ This command compiles `record_utility.c` using gcc with the `-Wall` flag enabled
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question3/Screenshots/Action%202.png?raw=true)
 
 </details>
 
@@ -153,7 +153,7 @@ This command compiles `record_utility.c` using gcc with the `-Wall` flag enabled
 <br/> <br/>
 <details>
 <summary>
-<h3 style="display: inline;">Action 3: Execute the low-level file processing utilit</h3>
+<h3 style="display: inline;">Action 3: Execute the low-level file processing utility</h3>
 </summary>
 <br>
 
@@ -181,7 +181,7 @@ This command executes the compiled binary. I observed the program create `employ
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question3/Screenshots/Action%203.png?raw=true)
 
 </details>
 
@@ -216,7 +216,7 @@ This command checks the created binary data file `employees.dat`. The total file
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question3/Screenshots/Action%204.png?raw=true)
 
 </details>
 
