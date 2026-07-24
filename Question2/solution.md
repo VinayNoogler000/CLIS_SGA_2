@@ -101,7 +101,7 @@ This command creates the C source file `process_monitor.c`. The program installs
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question2/Screenshots/Action%201.png?raw=true)
 
 </details>
 
@@ -138,7 +138,7 @@ This command compiles `process_monitor.c` using `gc`c` with the `-Wall` flag ena
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question2/Screenshots/Action%202.png?raw=true)
 
 </details>
 
@@ -184,7 +184,7 @@ This command runs the compiled program. I observed the parent process spawn two 
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question2/Screenshots/Action%203.png?raw=true)
 
 </details>
 
@@ -221,7 +221,7 @@ This command searches the system process table using `ps` and `grep` with single
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question2/Screenshots/Action%204.png?raw=true)
 
 </details>
 
