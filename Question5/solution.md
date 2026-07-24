@@ -26,7 +26,7 @@ This command creates `config.sys` and spawns `vim` in a pseudo-terminal. It enab
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question5/Screenshots/Action%201.png?raw=true)
 
 </details>
 
@@ -63,7 +63,7 @@ This command triggers Vim's swap file recovery mechanism using `vim -r config.sy
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question5/Screenshots/Action%202.png?raw=true)
 
 </details>
 
@@ -97,7 +97,7 @@ After successfully recovering and saving the file contents in Action 2, the orph
 
 **Screenshot:**  
 
-![Command Execution & Output]()
+![Command Execution & Output](https://github.com/VinayNoogler000/CLIS_SGA_2/blob/main/Question5/Screenshots/Action%203.png?raw=true)
 
 </details>
 
